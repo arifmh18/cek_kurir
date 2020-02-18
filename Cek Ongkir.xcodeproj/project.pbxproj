@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53002DE3A12645E08C11313F /* Pods_Cek_Ongkir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D61E37C045886C9043549876 /* Pods_Cek_Ongkir.framework */; };
+		FAA81A5823FAC92200189DF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A5723FAC92200189DF4 /* AppDelegate.swift */; };
+		FAA81A5A23FAC92200189DF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A5923FAC92200189DF4 /* SceneDelegate.swift */; };
+		FAA81A5C23FAC92200189DF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A5B23FAC92200189DF4 /* ViewController.swift */; };
+		FAA81A5F23FAC92200189DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA81A5D23FAC92200189DF4 /* Main.storyboard */; };
+		FAA81A6223FAC92200189DF4 /* Cek_Ongkir.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A6023FAC92200189DF4 /* Cek_Ongkir.xcdatamodeld */; };
+		FAA81A6423FAC92300189DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA81A6323FAC92300189DF4 /* Assets.xcassets */; };
+		FAA81A6723FAC92300189DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA81A6523FAC92300189DF4 /* LaunchScreen.storyboard */; };
+		FAA81A6F23FAC93F00189DF4 /* CustomConstrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A6E23FAC93F00189DF4 /* CustomConstrain.swift */; };
+		FAA81A7623FB4BBD00189DF4 /* DataNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A7523FB4BBD00189DF4 /* DataNetwork.swift */; };
+		FAA81A7823FB4E2B00189DF4 /* ProvinceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A7723FB4E2B00189DF4 /* ProvinceController.swift */; };
+		FAA81A7A23FB4F6300189DF4 /* ProvinceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A7923FB4F6300189DF4 /* ProvinceCell.swift */; };
+		FAA81A7C23FB52FC00189DF4 /* GetDataProvince.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A7B23FB52FC00189DF4 /* GetDataProvince.swift */; };
+		FAA81A7E23FB86DC00189DF4 /* CityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A7D23FB86DC00189DF4 /* CityController.swift */; };
+		FAA81A8023FB872B00189DF4 /* GetDataCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A7F23FB872B00189DF4 /* GetDataCity.swift */; };
+		FAA81A8223FB892400189DF4 /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A8123FB892400189DF4 /* CityCell.swift */; };
+		FAA81A8423FB983700189DF4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A8323FB983700189DF4 /* Utils.swift */; };
+		FAA81A8623FB9D1800189DF4 /* CostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A8523FB9D1800189DF4 /* CostController.swift */; };
+		FAA81A8823FBA08B00189DF4 /* CostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A8723FBA08B00189DF4 /* CostCell.swift */; };
+		FAA81A8A23FBB71200189DF4 /* GetCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA81A8923FBB71200189DF4 /* GetCost.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F6FEA2671071B34FE45153A /* Pods-Cek Ongkir.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cek Ongkir.debug.xcconfig"; path = "Target Support Files/Pods-Cek Ongkir/Pods-Cek Ongkir.debug.xcconfig"; sourceTree = "<group>"; };
+		C75B1B345D8C1F9E7FBD194B /* Pods-Cek Ongkir.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cek Ongkir.release.xcconfig"; path = "Target Support Files/Pods-Cek Ongkir/Pods-Cek Ongkir.release.xcconfig"; sourceTree = "<group>"; };
+		D61E37C045886C9043549876 /* Pods_Cek_Ongkir.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cek_Ongkir.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA81A5423FAC92200189DF4 /* Cek Ongkir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cek Ongkir.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA81A5723FAC92200189DF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA81A5923FAC92200189DF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAA81A5B23FAC92200189DF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA81A5E23FAC92200189DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA81A6123FAC92200189DF4 /* Cek_Ongkir.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cek_Ongkir.xcdatamodel; sourceTree = "<group>"; };
+		FAA81A6323FAC92300189DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA81A6623FAC92300189DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA81A6823FAC92300189DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA81A6E23FAC93F00189DF4 /* CustomConstrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomConstrain.swift; sourceTree = "<group>"; };
+		FAA81A7523FB4BBD00189DF4 /* DataNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataNetwork.swift; sourceTree = "<group>"; };
+		FAA81A7723FB4E2B00189DF4 /* ProvinceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceController.swift; sourceTree = "<group>"; };
+		FAA81A7923FB4F6300189DF4 /* ProvinceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceCell.swift; sourceTree = "<group>"; };
+		FAA81A7B23FB52FC00189DF4 /* GetDataProvince.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataProvince.swift; sourceTree = "<group>"; };
+		FAA81A7D23FB86DC00189DF4 /* CityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityController.swift; sourceTree = "<group>"; };
+		FAA81A7F23FB872B00189DF4 /* GetDataCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataCity.swift; sourceTree = "<group>"; };
+		FAA81A8123FB892400189DF4 /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		FAA81A8323FB983700189DF4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FAA81A8523FB9D1800189DF4 /* CostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostController.swift; sourceTree = "<group>"; };
+		FAA81A8723FBA08B00189DF4 /* CostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostCell.swift; sourceTree = "<group>"; };
+		FAA81A8923FBB71200189DF4 /* GetCost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCost.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA81A5123FAC92200189DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53002DE3A12645E08C11313F /* Pods_Cek_Ongkir.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D081307CC310A50F723F8A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D61E37C045886C9043549876 /* Pods_Cek_Ongkir.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D99D1BEEFF37A4D5F40EA12D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F6FEA2671071B34FE45153A /* Pods-Cek Ongkir.debug.xcconfig */,
+				C75B1B345D8C1F9E7FBD194B /* Pods-Cek Ongkir.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAA81A4B23FAC92200189DF4 = {
+			isa = PBXGroup;
+			children = (
+				FAA81A5623FAC92200189DF4 /* Cek Ongkir */,
+				FAA81A5523FAC92200189DF4 /* Products */,
+				D99D1BEEFF37A4D5F40EA12D /* Pods */,
+				3D081307CC310A50F723F8A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA81A5523FAC92200189DF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA81A5423FAC92200189DF4 /* Cek Ongkir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA81A5623FAC92200189DF4 /* Cek Ongkir */ = {
+			isa = PBXGroup;
+			children = (
+				FAA81A7423FB4A8000189DF4 /* Default */,
+				FAA81A7323FB4A7300189DF4 /* Network */,
+				FAA81A7223FB4A6600189DF4 /* Cell */,
+				FAA81A7123FB4A4300189DF4 /* Model */,
+				FAA81A7023FB4A2800189DF4 /* Controller */,
+			);
+			path = "Cek Ongkir";
+			sourceTree = "<group>";
+		};
+		FAA81A7023FB4A2800189DF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAA81A5B23FAC92200189DF4 /* ViewController.swift */,
+				FAA81A7723FB4E2B00189DF4 /* ProvinceController.swift */,
+				FAA81A7D23FB86DC00189DF4 /* CityController.swift */,
+				FAA81A8523FB9D1800189DF4 /* CostController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAA81A7123FB4A4300189DF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAA81A7B23FB52FC00189DF4 /* GetDataProvince.swift */,
+				FAA81A7F23FB872B00189DF4 /* GetDataCity.swift */,
+				FAA81A8923FBB71200189DF4 /* GetCost.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAA81A7223FB4A6600189DF4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FAA81A7923FB4F6300189DF4 /* ProvinceCell.swift */,
+				FAA81A8123FB892400189DF4 /* CityCell.swift */,
+				FAA81A8723FBA08B00189DF4 /* CostCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FAA81A7323FB4A7300189DF4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FAA81A7523FB4BBD00189DF4 /* DataNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FAA81A7423FB4A8000189DF4 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				FAA81A5723FAC92200189DF4 /* AppDelegate.swift */,
+				FAA81A5923FAC92200189DF4 /* SceneDelegate.swift */,
+				FAA81A5D23FAC92200189DF4 /* Main.storyboard */,
+				FAA81A6323FAC92300189DF4 /* Assets.xcassets */,
+				FAA81A6523FAC92300189DF4 /* LaunchScreen.storyboard */,
+				FAA81A6823FAC92300189DF4 /* Info.plist */,
+				FAA81A6023FAC92200189DF4 /* Cek_Ongkir.xcdatamodeld */,
+				FAA81A6E23FAC93F00189DF4 /* CustomConstrain.swift */,
+				FAA81A8323FB983700189DF4 /* Utils.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA81A5323FAC92200189DF4 /* Cek Ongkir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA81A6B23FAC92300189DF4 /* Build configuration list for PBXNativeTarget "Cek Ongkir" */;
+			buildPhases = (
+				FCF78AFDF26E5889B403442E /* [CP] Check Pods Manifest.lock */,
+				FAA81A5023FAC92200189DF4 /* Sources */,
+				FAA81A5123FAC92200189DF4 /* Frameworks */,
+				FAA81A5223FAC92200189DF4 /* Resources */,
+				E6D800A4AFD6C7E0A8CB14B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cek Ongkir";
+			productName = "Cek Ongkir";
+			productReference = FAA81A5423FAC92200189DF4 /* Cek Ongkir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA81A4C23FAC92200189DF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "PT Goalkes Indonesia Jaya";
+				TargetAttributes = {
+					FAA81A5323FAC92200189DF4 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = FAA81A4F23FAC92200189DF4 /* Build configuration list for PBXProject "Cek Ongkir" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA81A4B23FAC92200189DF4;
+			productRefGroup = FAA81A5523FAC92200189DF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA81A5323FAC92200189DF4 /* Cek Ongkir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA81A5223FAC92200189DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA81A6723FAC92300189DF4 /* LaunchScreen.storyboard in Resources */,
+				FAA81A6423FAC92300189DF4 /* Assets.xcassets in Resources */,
+				FAA81A5F23FAC92200189DF4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6D800A4AFD6C7E0A8CB14B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cek Ongkir/Pods-Cek Ongkir-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cek Ongkir/Pods-Cek Ongkir-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cek Ongkir/Pods-Cek Ongkir-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF78AFDF26E5889B403442E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cek Ongkir-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA81A5023FAC92200189DF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA81A7623FB4BBD00189DF4 /* DataNetwork.swift in Sources */,
+				FAA81A8A23FBB71200189DF4 /* GetCost.swift in Sources */,
+				FAA81A6F23FAC93F00189DF4 /* CustomConstrain.swift in Sources */,
+				FAA81A8223FB892400189DF4 /* CityCell.swift in Sources */,
+				FAA81A8823FBA08B00189DF4 /* CostCell.swift in Sources */,
+				FAA81A5C23FAC92200189DF4 /* ViewController.swift in Sources */,
+				FAA81A8023FB872B00189DF4 /* GetDataCity.swift in Sources */,
+				FAA81A8423FB983700189DF4 /* Utils.swift in Sources */,
+				FAA81A8623FB9D1800189DF4 /* CostController.swift in Sources */,
+				FAA81A7A23FB4F6300189DF4 /* ProvinceCell.swift in Sources */,
+				FAA81A7C23FB52FC00189DF4 /* GetDataProvince.swift in Sources */,
+				FAA81A5823FAC92200189DF4 /* AppDelegate.swift in Sources */,
+				FAA81A5A23FAC92200189DF4 /* SceneDelegate.swift in Sources */,
+				FAA81A7823FB4E2B00189DF4 /* ProvinceController.swift in Sources */,
+				FAA81A7E23FB86DC00189DF4 /* CityController.swift in Sources */,
+				FAA81A6223FAC92200189DF4 /* Cek_Ongkir.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAA81A5D23FAC92200189DF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA81A5E23FAC92200189DF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA81A6523FAC92300189DF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA81A6623FAC92300189DF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA81A6923FAC92300189DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA81A6A23FAC92300189DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA81A6C23FAC92300189DF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6FEA2671071B34FE45153A /* Pods-Cek Ongkir.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MW69P4B57;
+				INFOPLIST_FILE = "$(SRCROOT)/Cek Ongkir/Default/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "goalkes.Cek-Ongkir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAA81A6D23FAC92300189DF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C75B1B345D8C1F9E7FBD194B /* Pods-Cek Ongkir.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5MW69P4B57;
+				INFOPLIST_FILE = "$(SRCROOT)/Cek Ongkir/Default/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "goalkes.Cek-Ongkir";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA81A4F23FAC92200189DF4 /* Build configuration list for PBXProject "Cek Ongkir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA81A6923FAC92300189DF4 /* Debug */,
+				FAA81A6A23FAC92300189DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA81A6B23FAC92300189DF4 /* Build configuration list for PBXNativeTarget "Cek Ongkir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA81A6C23FAC92300189DF4 /* Debug */,
+				FAA81A6D23FAC92300189DF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAA81A6023FAC92200189DF4 /* Cek_Ongkir.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA81A6123FAC92200189DF4 /* Cek_Ongkir.xcdatamodel */,
+			);
+			currentVersion = FAA81A6123FAC92200189DF4 /* Cek_Ongkir.xcdatamodel */;
+			path = Cek_Ongkir.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAA81A4C23FAC92200189DF4 /* Project object */;
+}
